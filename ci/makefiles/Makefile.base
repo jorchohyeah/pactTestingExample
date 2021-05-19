@@ -1,0 +1,8 @@
+build: assemble
+	./gradlew build $(ARG)
+
+assemble:
+	./gradlew clean assemble $(ARG)
+
+run:
+	./gradlew bootRun
